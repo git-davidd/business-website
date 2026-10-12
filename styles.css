@@ -1,0 +1,57 @@
+:root {
+  --primary-colour: #375267;
+  --secundairy-colour: #c4c5c7;
+  --tertairy-colour: #111111;
+
+  --navbar-height: 60px;
+  --navbar-margin: calc(0.5*var(--navbar-height));
+
+  --main-font: "Montserrat";
+}
+
+body {
+  background-color: #dcdad0;
+  margin: 0px;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--primary-colour);
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  font-family: var(--main-font);
+  font-size: calc(0.4*var(--navbar-height));
+  font-weight: 400;
+  margin-right: calc(0.5*var(--navbar-margin));
+
+  color: var(--secundairy-colour);
+}
+
+.nav-button.active {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.nav-divider {
+  height: calc(0.5 * var(--navbar-height));
+  width: calc(var(--navbar-height)/40);
+  border-radius: 4px;
+
+  margin-left: var(--navbar-margin);
+  margin-right: var(--navbar-margin);
+
+  background-color: var(--secundairy-colour);
+}
+
+.logo-small {
+  height: var(--navbar-height);
+  width: var(--navbar-height);
+
+  float: left;
+}
