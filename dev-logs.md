@@ -27,9 +27,12 @@ Today I want to start making my dad's actual website. I won't put his real name,
 ## Entry #2 - Week 42, 13/10, Prep week 3
 Today's goal would be setting up the framework on which I can build all pages. With that I mean I want to make sure I have div objects for the background, the foreground. And I want to make CSS styles for the different types for text, so for titles, headers, paragraphs and maybe more.
 
-> **#**
+> **[#c3fa417](https://github.com/git-davidd/business-website/commit/c3fa4175d41edf66e9f78347881e6fdb80f24f44)**
 > - After first using a div for the background, I've decided to put the background on the body tag
 > - Added a div that is always centered and is 80vw wide, for the homepage content.
 > - I'm thinking about lining the navbar buttons out with where the homepage content starts (on the left)
 > - I struggled quite a lot with centering the hp-content div.. so:
 >   - NOTE TO SELF: Please please please just use margin-left and margin-right: auto; to allign something horizontally centered !!
+
+> **#**
+> - a

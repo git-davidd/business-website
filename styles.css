@@ -1,12 +1,16 @@
 :root {
   --primary-colour: #375267;
   --secundairy-colour: #c4c5c7;
-  --tertairy-colour: #111111;
+  --tertairy-colour: #fff;
 
   --navbar-height: 60px;
   --navbar-margin: calc(0.5*var(--navbar-height));
 
   --main-font: "Montserrat";
+}
+
+* {
+  font-family: var(--main-font);
 }
 
 body {
@@ -26,7 +30,6 @@ body {
 }
 
 .nav-button {
-  font-family: var(--main-font);
   font-size: calc(0.4*var(--navbar-height));
   font-weight: 400;
   margin-right: calc(0.5*var(--navbar-margin));
@@ -36,7 +39,7 @@ body {
 
 .nav-button.active {
     font-weight: 600;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .nav-divider {
@@ -63,14 +66,39 @@ body {
   background-color: var(--secundairy-colour);
 }
 
-.hp-content {
+
+.hp-cc {
+  /* cc = content container */
   margin-left: auto;
   margin-right: auto;
 
   height: fit-content;
-  width: 80vw;
-  background-color: #111111;
+  width: 70vw;
+  background-color: var(--secundairy-colour);
   
   /* IF --NAVBAR-HEIGHT CHANGES, UPDATE THIS */
   transform: translate(0,60px);
+}
+
+/* TEXT TYPES */
+.title {
+  font-weight: 750;
+  font-size: 40px;
+  /* color: var(--primary-colour); */
+
+  margin-bottom: 12px;
+}
+
+.header {
+  font-weight: 580;
+  font-size: 24px;
+  /* color: var(--primary-colour); */
+
+  margin-bottom: 6px;
+}
+
+.paragraph {
+  font-size: 16px;
+
+  margin-bottom: 6px;
 }
