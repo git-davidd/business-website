@@ -41,5 +41,8 @@ NOTE TO SELF: Please please please just use margin-left and margin-right: auto; 
 >   - Headers
 >   - Paragraphs
 
-> **#**
+> **[#e05d475](https://github.com/git-davidd/business-website/commit/e05d4754569e52271c0ae10f01dcf895fd8e675c)**
 > - Updated dev-logs.md, forgot to do that in last commit
+
+> **#abc789**
+> - Added padding to the navbar, so that everything on it is alligned with the homepage content (on the left side)
