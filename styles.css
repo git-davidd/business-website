@@ -20,6 +20,7 @@ body {
   height: var(--navbar-height);
   background-color: var(--primary-colour);
 
+  position: absolute;
   display: flex;
   align-items: center;
 }
@@ -54,4 +55,22 @@ body {
   width: var(--navbar-height);
 
   float: left;
+}
+
+/* HOMEPAGE */
+.hp-background {
+  height: fit-content; 
+  background-color: var(--secundairy-colour);
+}
+
+.hp-content {
+  margin-left: auto;
+  margin-right: auto;
+
+  height: fit-content;
+  width: 80vw;
+  background-color: #111111;
+  
+  /* IF --NAVBAR-HEIGHT CHANGES, UPDATE THIS */
+  transform: translate(0,60px);
 }

@@ -8,7 +8,7 @@ Today I want to start making my dad's actual website. I won't put his real name,
 > - I made a project directory
 > - I set up the git environment
 
-> **#**
+> **[#bc0d211](https://github.com/git-davidd/business-website/commit/bc0d2113675b22f7201d8ecc8faab65df6d3dfd4)**
 > - Wrote a first bit of the README
 > - Watch some youtube videos about viewport and css to get in the mood
 > - Started on the navbar
@@ -22,3 +22,14 @@ Today I want to start making my dad's actual website. I won't put his real name,
 >   - For now I did a lot with variables in CSS, and I think I'll stick with it, so I can easily make changes on the page.
 >   - Made the active page have bold text and an underline
 >   - Added a divider between the logo and the pages links
+
+
+## Entry #2 - Week 42, 13/10, Prep week 3
+Today's goal would be setting up the framework on which I can build all pages. With that I mean I want to make sure I have div objects for the background, the foreground. And I want to make CSS styles for the different types for text, so for titles, headers, paragraphs and maybe more.
+
+> **#**
+> - After first using a div for the background, I've decided to put the background on the body tag
+> - Added a div that is always centered and is 80vw wide, for the homepage content.
+> - I'm thinking about lining the navbar buttons out with where the homepage content starts (on the left)
+> - I struggled quite a lot with centering the hp-content div.. so:
+>   - NOTE TO SELF: Please please please just use margin-left and margin-right: auto; to allign something horizontally centered !!
