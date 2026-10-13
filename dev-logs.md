@@ -31,8 +31,15 @@ Today's goal would be setting up the framework on which I can build all pages. W
 > - After first using a div for the background, I've decided to put the background on the body tag
 > - Added a div that is always centered and is 80vw wide, for the homepage content.
 > - I'm thinking about lining the navbar buttons out with where the homepage content starts (on the left)
-> - I struggled quite a lot with centering the hp-content div.. so:
->   - NOTE TO SELF: Please please please just use margin-left and margin-right: auto; to allign something horizontally centered !!
+> - I struggled quite a lot with centering the hp-cc (homepage content container) div.. so:
+
+NOTE TO SELF: Please please please just use margin-left and margin-right: auto; to allign something horizontally centered !!
+
+> **[#bea38f9](https://github.com/git-davidd/business-website/commit/bea38f91bf91b6965fe820bf37b2b5bb6241ca28)**
+> - Added CSS styles for:
+>   - Titles
+>   - Headers
+>   - Paragraphs
 
 > **#**
-> - a
+> - Updated dev-logs.md, forgot to do that in last commit
