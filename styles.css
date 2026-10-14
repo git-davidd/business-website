@@ -83,7 +83,7 @@ body {
 }
 
 /* TEXT TYPES */
-.title {
+h1 {
   font-weight: 750;
   font-size: 40px;
   /* color: var(--primary-colour); */
@@ -91,7 +91,7 @@ body {
   margin-bottom: 12px;
 }
 
-.header {
+h2 {
   font-weight: 580;
   font-size: 24px;
   /* color: var(--primary-colour); */
@@ -99,7 +99,7 @@ body {
   margin-bottom: 6px;
 }
 
-.paragraph {
+p {
   font-size: 16px;
 
   margin-bottom: 6px;

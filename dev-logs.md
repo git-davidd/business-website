@@ -44,5 +44,11 @@ NOTE TO SELF: Please please please just use margin-left and margin-right: auto; 
 > **[#e05d475](https://github.com/git-davidd/business-website/commit/e05d4754569e52271c0ae10f01dcf895fd8e675c)**
 > - Updated dev-logs.md, forgot to do that in last commit
 
-> **#abc789**
+> **[#f91f87d](https://github.com/git-davidd/business-website/commit/f91f87d2ff6149cb3e7b67bb602de7ca20ca48aa)**
 > - Added padding to the navbar, so that everything on it is alligned with the homepage content (on the left side)
+
+## Entry #3 - Week 42, 14/10, Prep week 3
+Today I'm a little less motivated, but I'll try to just get started so I can still get some work done. What I want to do: Fix up text types with h1 and p for example; try to create a photo carousel at the top of the homepage; and add some (mock) content to the homepage
+
+> #commit
+> - 
