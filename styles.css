@@ -4,13 +4,14 @@
   --tertairy-colour: #fff;
 
   --navbar-height: 60px;
-  --navbar-margin: calc(0.5*var(--navbar-height));
+  --navbar-margin: calc(0.5 * var(--navbar-height));
 
   --main-font: "Montserrat";
 }
 
 * {
   font-family: var(--main-font);
+  box-sizing: border-box;
 }
 
 body {
@@ -32,21 +33,21 @@ body {
 }
 
 .nav-button {
-  font-size: calc(0.4*var(--navbar-height));
+  font-size: calc(0.4 * var(--navbar-height));
   font-weight: 400;
-  margin-right: calc(0.5*var(--navbar-margin));
+  margin-right: calc(0.5 * var(--navbar-margin));
 
   color: var(--secundairy-colour);
 }
 
 .nav-button.active {
-    font-weight: 600;
-    /* text-decoration: underline; */
+  font-weight: 600;
+  /* text-decoration: underline; */
 }
 
 .nav-divider {
   height: calc(0.5 * var(--navbar-height));
-  width: calc(var(--navbar-height)/40);
+  width: calc(var(--navbar-height) / 40);
   border-radius: 4px;
 
   margin-left: var(--navbar-margin);
@@ -64,22 +65,48 @@ body {
 
 /* HOMEPAGE */
 .hp-background {
-  height: fit-content; 
+  height: fit-content;
   background-color: var(--secundairy-colour);
 }
-
 
 .hp-cc {
   /* cc = content container */
   margin-left: auto;
   margin-right: auto;
+  padding-top: var(--navbar-height);
 
   height: fit-content;
   width: 70vw;
   background-color: var(--secundairy-colour);
-  
-  /* IF --NAVBAR-HEIGHT CHANGES, UPDATE THIS */
-  transform: translate(0,60px);
+}
+
+/* CAROUSEL */
+.hp-cc .carousel {
+  height: 95vh;
+  display: flex;
+  overflow: hidden;
+  container-type: inline-size;
+}
+
+.carousel .slide {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 0;
+  overflow: hidden;
+  transition: flex-basis 0.8s ease;
+}
+
+.carousel .slide.active {
+  flex-basis: 100%;
+  justify-content: flex-start;
+}
+
+.carousel .slide img {
+  width: 100cqw;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
 }
 
 /* TEXT TYPES */

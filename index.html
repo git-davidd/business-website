@@ -27,9 +27,35 @@
 
     <!-- Homepage -->
     <div class="hp-cc">
+      <!-- Carousel -->
+      <div class="carousel">
+        <div class="slide active">
+          <img src="./assets/hp-carousel/photo-1.jpg" />
+        </div>
+        <div class="slide">
+          <img src="./assets/hp-carousel/photo-2.jpg" />
+        </div>
+        <div class="slide">
+          <img src="./assets/hp-carousel/photo-3.jpg" />
+        </div>
+      </div>
+
+      <!-- Scrolling script -->
+      <script>
+        const carousel = document.querySelector(".carousel");
+
+        setInterval(() => {
+          const current = carousel.querySelector(".active");
+          const next = current.nextElementSibling || carousel.firstElementChild;
+          current.after(next);
+          current.classList.remove("active");
+          next.classList.add("active");
+        }, 7500);
+      </script>
+
       <h1>This is a title</h1>
       <h2>This is a header</h2>
-      <p>This is a paragraph<br>there was a linebreak here</p>
+      <p>This is a paragraph<br />there was a linebreak here</p>
       <p>This is a new paragraph</p>
     </div>
   </body>
