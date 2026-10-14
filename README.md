@@ -73,8 +73,16 @@ Today I'm a little less motivated, but I'll try to just get started so I can sti
 > - Added `box-sizing: border-box;` to the root of the css, so my page wouldn't have wierd empty space
 > - Made it so that the hp-cc doesnt translate down a bit, but instead added `padding-top` to move all content to be below the navbar
 
-> #commit
+> **[#08f3a83](https://github.com/git-davidd/business-website/commit/08f3a839559bc5efa838d1b09c01b20f5dbe1df2)**
 > - Added `cursor: pointer` to the nav-buttons and small-logo
 > - Added link to the homepage to the small-logo
 > - Moved all devlogs to README.md
 > - Added move notice to dev-logs.md
+
+> **#commit**
+> - I let Claude update the js script to not include the title in "active" slides (to make sure there no moment where no slides show up)
+> - Struggled a lot with the title that floats over the carousel
+>   - The background blur thingy would NOT adjust to the right width
+> - In the end I went with a background that is the full with of the page (100vw) and made the text allign by using `padding-left: 15vw`
+> - Added a 15% oppacity border to create a little bit of the glass effect with the blur
+> - Changed up a view photos

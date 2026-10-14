@@ -28,33 +28,50 @@
     </div>
 
     <!-- Homepage -->
-    <div class="hp-cc">
-      <!-- Carousel -->
-      <div class="carousel">
-        <div class="slide active">
-          <img src="./assets/hp-carousel/photo-1.jpg" />
-        </div>
-        <div class="slide">
-          <img src="./assets/hp-carousel/photo-2.jpg" />
-        </div>
-        <div class="slide">
-          <img src="./assets/hp-carousel/photo-3.jpg" />
-        </div>
+    <div class="hp-carousel">
+      <div class="slide active">
+        <img src="./assets/hp-carousel/photo-1.jpg" />
       </div>
+      <div class="slide">
+        <img src="./assets/hp-carousel/photo-2.jpg" />
+      </div>
+      <div class="slide">
+        <img src="./assets/hp-carousel/photo-3.jpg" />
+      </div>
+      <div class="slide">
+        <img src="./assets/hp-carousel/photo-4.jpg" />
+      </div>
+      <div class="slide">
+        <img src="./assets/hp-carousel/photo-5.jpg" />
+      </div>
+      <div class="hp-title">
+        <h1 class="big-title">Dad's business name bv</h1>
+      </div>
+    </div>
 
-      <!-- Scrolling script -->
-      <script>
-        const carousel = document.querySelector(".carousel");
+    <!-- Scrolling script -->
+    <script>
+      const carousel = document.querySelector(".hp-carousel");
+      const slides = Array.from(carousel.querySelectorAll(".slide"));
+      let index = Math.max(
+        0,
+        slides.findIndex((s) => s.classList.contains("active")),
+      );
 
-        setInterval(() => {
-          const current = carousel.querySelector(".active");
-          const next = current.nextElementSibling || carousel.firstElementChild;
-          current.after(next);
-          current.classList.remove("active");
-          next.classList.add("active");
-        }, 7500);
-      </script>
+      setInterval(() => {
+        const current = slides[index];
+        index = (index + 1) % slides.length;
+        const next = slides[index];
 
+        current.after(next);
+        current.classList.remove("active");
+        next.classList.add("active");
+      }, 7500);
+    </script>
+
+    <!-- Homepage content container -->
+    <div class="hp-cc">
+      <!-- Page content -->
       <h1>This is a title</h1>
       <h2>This is a header</h2>
       <p>This is a paragraph<br />there was a linebreak here</p>

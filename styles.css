@@ -3,7 +3,7 @@
   --secundairy-colour: #c4c5c7;
   --tertairy-colour: #fff;
 
-  --navbar-height: 60px;
+  --navbar-height: 6vh;
   --navbar-margin: calc(0.5 * var(--navbar-height));
 
   --main-font: "Montserrat";
@@ -27,7 +27,7 @@ body {
 
   padding-left: 15vw;
 
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   align-items: center;
 }
@@ -84,15 +84,36 @@ body {
   background-color: var(--secundairy-colour);
 }
 
+.hp-title {
+  position: absolute;
+  bottom: 20px;
+  padding-left: 15vw;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  width: 100vw;
+
+  color: #fff;
+  backdrop-filter: blur(35px);
+  border-top: 1px solid #ffffff15;
+  border-bottom: 1px solid #ffffff15;
+}
+
+.hp-title h1.big-title {
+  margin: 0px;
+  max-width: 40vw;
+}
+
 /* CAROUSEL */
-.hp-cc .carousel {
+.hp-carousel {
   height: 95vh;
   display: flex;
   overflow: hidden;
   container-type: inline-size;
 }
 
-.carousel .slide {
+.hp-carousel .slide {
   display: flex;
   justify-content: flex-end;
   flex: 0 0 0;
@@ -100,12 +121,12 @@ body {
   transition: flex-basis 0.8s ease;
 }
 
-.carousel .slide.active {
+.hp-carousel .slide.active {
   flex-basis: 100%;
   justify-content: flex-start;
 }
 
-.carousel .slide img {
+.hp-carousel .slide img {
   width: 100cqw;
   height: 100%;
   object-fit: cover;
@@ -117,21 +138,29 @@ body {
 h1 {
   font-weight: 750;
   font-size: 40px;
-  /* color: var(--primary-colour); */
+  text-wrap: balance;
 
   margin-bottom: 12px;
+}
+
+h1.big-title {
+  font-size: 75px;
+  text-wrap: balance;
+
+  margin-top: 10px;
 }
 
 h2 {
   font-weight: 580;
   font-size: 24px;
-  /* color: var(--primary-colour); */
+  text-wrap: balance;
 
   margin-bottom: 6px;
 }
 
 p {
   font-size: 16px;
+  text-wrap: balance;
 
   margin-bottom: 6px;
 }
