@@ -5,7 +5,11 @@ Hello everyone, I am participating to the [HC Terra](https://terra.hackclub.com)
 This is my second project. I am learning HTML to build my dad a website for his business. As I practiced a bit with the coding before Terra, I now am kind of confident that I can make something that is sufficient, so after just one real finished small project before this one, I will now start on the real pages.
 
 ## Pages and features
-Coming soon (or not so soon)
+### Homepage
+- At the top of the page is a carousel for images that have a sliding animation and change every 7,5 seconds
+    - on top of that carousel, theres the logo and a catchy prase (that has to be invented still)
+
+Updating soon (or not so soon)
 
 ## Devlogs
 In this file I will log everything I do on which date. I will include calendar week numbers and HC Terra week numbers. I will include everything I do, not only the coding parts. So for example if I do some research before, I'll put it in here. or not if i forget:)
@@ -94,7 +98,12 @@ Today I'm a little less motivated, but I'll try to just get started so I can sti
 
 Today I want to make the css more readable. I want to clean up unneccesairy lines and I want to rename the styles to make more sense. I also want to create styles for parts the the website, not generic ones.
 
-> **#commit**
+> **[#cb61530](https://github.com/git-davidd/business-website/commit/cb61530dba5dbba40a400821114929a9e4d24eb1)**
 > - shortened CSS style names
 > - moved all CSS styles under their own category (their thing on the page)
 > - and like very minimal minor teeny tiny changes that i already forgot about
+
+> **#commit**
+> - added favicon
+> - renamed some files and folders
+> - started on the "Pages and features" bit on the readme
