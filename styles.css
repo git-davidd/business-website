@@ -2,15 +2,14 @@
 :root {
   --primary-colour: #375267;
   --secundairy-colour: #c4c5c7;
-  --tertairy-colour: #fff;
+  --light-colour: #fff;
+  --dark-colour: #222;
 
   --navbar-height: 6vh;
   --navbar-margin: calc(0.5 * var(--navbar-height));
 
   --main-font: "Montserrat";
 }
-
-
 
 /* GENERIC */
 * {
@@ -61,8 +60,6 @@ p {
   margin-bottom: 6px;
 }
 
-
-
 /* NAVBAR */
 .navbar {
   width: 100%;
@@ -109,8 +106,6 @@ p {
 
   float: left;
 }
-
-
 
 /* CAROUSEL WITH TITLE */
 .car {
@@ -159,10 +154,46 @@ p {
 
   margin-top: 10px;
 }
+.car .tc .tt .sc {
+  color: var(--secundairy-colour);
+}
 
 .car .logo {
   position: absolute;
   bottom: 20vh;
   left: 15vw;
   filter: drop-shadow(0.5px, 0.5px, 4px, #000);
+}
+
+
+
+/* FOOTER */
+.ft {
+  padding-top: 25px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 25px;
+  height: fit-content;
+  min-height: 10vh;
+  background-color: var(--dark-colour);
+
+  color: var(--light-colour);
+}
+.ft p {
+  margin: 0px;
+  margin-left: 6px;
+}
+.ft .left {
+  float: left;
+}
+.ft .right {
+  float: right;
+  display: flex;
+}
+.ft .right a {
+  display: flex;
+  cursor: pointer;
+  margin-left: 30px;
+  text-decoration: none;
+  color: currentColor;
 }

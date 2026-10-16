@@ -103,7 +103,17 @@ Today I want to make the css more readable. I want to clean up unneccesairy line
 > - moved all CSS styles under their own category (their thing on the page)
 > - and like very minimal minor teeny tiny changes that i already forgot about
 
-> **#commit**
+> **[#fe1f064](https://github.com/git-davidd/business-website/commit/fe1f064ea28abe1b9925f9e92fbfb7f9b12abb21)**
 > - added favicon
 > - renamed some files and folders
 > - started on the "Pages and features" bit on the readme
+
+next thing ill work on is a footer
+
+> **#commit**
+> - started on the footer
+>   - added copyright thing
+>   - added 2 links for phone and mail contact
+>       - These links need some work to make them look right (not off center for example)
+
+ISSUES: horizontal logo on carousel is absolute, so if the vh is small it overlaps with the title. 
