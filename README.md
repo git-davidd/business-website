@@ -79,10 +79,13 @@ Today I'm a little less motivated, but I'll try to just get started so I can sti
 > - Moved all devlogs to README.md
 > - Added move notice to dev-logs.md
 
-> **#commit**
+> **[#c1de1f5](https://github.com/git-davidd/business-website/commit/c1de1f534cd0736db6f6bdc5a426eb59e7f5ed80)**
 > - I let Claude update the js script to not include the title in "active" slides (to make sure there no moment where no slides show up)
 > - Struggled a lot with the title that floats over the carousel
 >   - The background blur thingy would NOT adjust to the right width
 > - In the end I went with a background that is the full with of the page (100vw) and made the text allign by using `padding-left: 15vw`
 > - Added a 15% oppacity border to create a little bit of the glass effect with the blur
 > - Changed up a view photos
+
+> **#commit**
+> - A few minor changes, i dont even know anymore, just forgot to commit and sync these

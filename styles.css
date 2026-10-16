@@ -94,15 +94,34 @@ body {
 
   width: 100vw;
 
+  /* COLOURED BACKGROUND */
+  /* background-color: var(--primary-colour); */
   color: #fff;
+
+  /* BLURRED BACKGROUND */
+  /* color: #fff;
   backdrop-filter: blur(35px);
   border-top: 1px solid #ffffff15;
-  border-bottom: 1px solid #ffffff15;
+  border-bottom: 1px solid #ffffff15; */
 }
 
 .hp-title h1.big-title {
   margin: 0px;
   max-width: 40vw;
+}
+
+h1.big-title {
+  font-size: 60px;
+  text-wrap: balance;
+
+  margin-top: 10px;
+}
+
+.hp-logo-horizontal {
+  position: absolute;
+  bottom: 20vh;
+  left: 15vw;
+  filter: drop-shadow(0.5px, 0.5px, 4px, #000) ;
 }
 
 /* CAROUSEL */
@@ -119,6 +138,7 @@ body {
   flex: 0 0 0;
   overflow: hidden;
   transition: flex-basis 0.8s ease;
+  filter: brightness(80%);
 }
 
 .hp-carousel .slide.active {
@@ -141,13 +161,6 @@ h1 {
   text-wrap: balance;
 
   margin-bottom: 12px;
-}
-
-h1.big-title {
-  font-size: 75px;
-  text-wrap: balance;
-
-  margin-top: 10px;
 }
 
 h2 {
