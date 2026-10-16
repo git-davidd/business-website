@@ -1,3 +1,4 @@
+/* VARIABLES */
 :root {
   --primary-colour: #375267;
   --secundairy-colour: #c4c5c7;
@@ -9,6 +10,9 @@
   --main-font: "Montserrat";
 }
 
+
+
+/* GENERIC */
 * {
   font-family: var(--main-font);
   box-sizing: border-box;
@@ -19,62 +23,12 @@ body {
   margin: 0px;
 }
 
-/* NAVBAR */
-.navbar {
-  width: 100%;
-  height: var(--navbar-height);
-  background-color: var(--primary-colour);
-
-  padding-left: 15vw;
-
-  /* position: absolute; */
-  display: flex;
-  align-items: center;
-}
-
-.nav-button {
-  cursor: pointer;
-
-  font-size: calc(0.4 * var(--navbar-height));
-  font-weight: 400;
-  margin-right: calc(0.5 * var(--navbar-margin));
-
-  color: var(--secundairy-colour);
-}
-
-.nav-button.active {
-  font-weight: 600;
-  /* text-decoration: underline; */
-}
-
-.nav-divider {
-  height: calc(0.5 * var(--navbar-height));
-  width: calc(var(--navbar-height) / 40);
-  border-radius: 4px;
-
-  margin-left: var(--navbar-margin);
-  margin-right: var(--navbar-margin);
-
-  background-color: var(--secundairy-colour);
-}
-
-.logo-small {
-  cursor: pointer;
-
-  height: var(--navbar-height);
-  width: var(--navbar-height);
-
-  float: left;
-}
-
-/* HOMEPAGE */
-.hp-background {
+.bg {
   height: fit-content;
   background-color: var(--secundairy-colour);
 }
 
 .hp-cc {
-  /* cc = content container */
   margin-left: auto;
   margin-right: auto;
   padding-top: var(--navbar-height);
@@ -84,77 +38,6 @@ body {
   background-color: var(--secundairy-colour);
 }
 
-.hp-title {
-  position: absolute;
-  bottom: 20px;
-  padding-left: 15vw;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  width: 100vw;
-
-  /* COLOURED BACKGROUND */
-  /* background-color: var(--primary-colour); */
-  color: #fff;
-
-  /* BLURRED BACKGROUND */
-  /* color: #fff;
-  backdrop-filter: blur(35px);
-  border-top: 1px solid #ffffff15;
-  border-bottom: 1px solid #ffffff15; */
-}
-
-.hp-title h1.big-title {
-  margin: 0px;
-  max-width: 40vw;
-}
-
-h1.big-title {
-  font-size: 60px;
-  text-wrap: balance;
-
-  margin-top: 10px;
-}
-
-.hp-logo-horizontal {
-  position: absolute;
-  bottom: 20vh;
-  left: 15vw;
-  filter: drop-shadow(0.5px, 0.5px, 4px, #000) ;
-}
-
-/* CAROUSEL */
-.hp-carousel {
-  height: 95vh;
-  display: flex;
-  overflow: hidden;
-  container-type: inline-size;
-}
-
-.hp-carousel .slide {
-  display: flex;
-  justify-content: flex-end;
-  flex: 0 0 0;
-  overflow: hidden;
-  transition: flex-basis 0.8s ease;
-  filter: brightness(80%);
-}
-
-.hp-carousel .slide.active {
-  flex-basis: 100%;
-  justify-content: flex-start;
-}
-
-.hp-carousel .slide img {
-  width: 100cqw;
-  height: 100%;
-  object-fit: cover;
-  flex-shrink: 0;
-  display: block;
-}
-
-/* TEXT TYPES */
 h1 {
   font-weight: 750;
   font-size: 40px;
@@ -176,4 +59,110 @@ p {
   text-wrap: balance;
 
   margin-bottom: 6px;
+}
+
+
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--primary-colour);
+
+  padding-left: 15vw;
+
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+}
+.nbb {
+  cursor: pointer;
+
+  font-size: calc(0.4 * var(--navbar-height));
+  font-weight: 400;
+  margin-right: calc(0.5 * var(--navbar-margin));
+
+  color: var(--secundairy-colour);
+}
+
+.nbb.active {
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+
+.nbd {
+  height: calc(0.5 * var(--navbar-height));
+  width: calc(var(--navbar-height) / 40);
+  border-radius: 4px;
+
+  margin-left: var(--navbar-margin);
+  margin-right: var(--navbar-margin);
+
+  background-color: var(--secundairy-colour);
+}
+
+.nbl {
+  cursor: pointer;
+
+  height: var(--navbar-height);
+  width: var(--navbar-height);
+
+  float: left;
+}
+
+
+
+/* CAROUSEL WITH TITLE */
+.car {
+  height: 95vh;
+  display: flex;
+  overflow: hidden;
+  container-type: inline-size;
+}
+.car .slide {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 0;
+  overflow: hidden;
+  transition: flex-basis 0.8s ease;
+  filter: brightness(70%);
+}
+.car .slide.active {
+  flex-basis: 100%;
+  justify-content: flex-start;
+}
+.car .slide img {
+  width: 100cqw;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
+.car .tc {
+  position: absolute;
+  bottom: 20px;
+  padding-left: 15vw;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  width: 100vw;
+
+  color: #fff;
+}
+.car .tc .tt {
+  margin: 0px;
+  max-width: 40vw;
+  font-size: 60px;
+  text-wrap: balance;
+
+  margin-top: 10px;
+}
+
+.car .logo {
+  position: absolute;
+  bottom: 20vh;
+  left: 15vw;
+  filter: drop-shadow(0.5px, 0.5px, 4px, #000);
 }

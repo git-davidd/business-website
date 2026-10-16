@@ -87,5 +87,14 @@ Today I'm a little less motivated, but I'll try to just get started so I can sti
 > - Added a 15% oppacity border to create a little bit of the glass effect with the blur
 > - Changed up a view photos
 
-> **#commit**
+### Entry #4 - Week 42, 16/10, prep week 3
+
+> **[#23c4e0a](https://github.com/git-davidd/business-website/commit/23c4e0a169e1d33b04ceac31b605ac2afdbc48b5)**
 > - A few minor changes, i dont even know anymore, just forgot to commit and sync these
+
+Today I want to make the css more readable. I want to clean up unneccesairy lines and I want to rename the styles to make more sense. I also want to create styles for parts the the website, not generic ones.
+
+> **#commit**
+> - shortened CSS style names
+> - moved all CSS styles under their own category (their thing on the page)
+> - and like very minimal minor teeny tiny changes that i already forgot about

@@ -15,20 +15,20 @@
     />
   </head>
 
-  <body class="hp-background">
+  <body class="bg">
     <!-- Navbar -->
     <div class="navbar">
       <a href="./index.html"
-        ><img src="./assets/logo-small.png" class="logo-small"
+        ><img src="./assets/logo-small.png" class="nbl"
       /></a>
-      <div class="nav-divider"></div>
-      <a class="nav-button active" title="U bent hier">Home</a>
-      <a class="nav-button" title="Coming soon">Over mij</a>
-      <a class="nav-button" title="Coming soon">Gallerij</a>
+      <div class="nbd"></div>
+      <a class="nbb active" title="U bent hier">Home</a>
+      <a class="nbb" title="Coming soon">Over mij</a>
+      <a class="nbb" title="Coming soon">Gallerij</a>
     </div>
 
     <!-- Homepage -->
-    <div class="hp-carousel">
+    <div class="car">
       <div class="slide active">
         <img src="./assets/hp-carousel/photo-1.jpg" />
       </div>
@@ -44,17 +44,17 @@
       <div class="slide">
         <img src="./assets/hp-carousel/photo-5.jpg" />
       </div>
-      <div class="hp-logo-horizontal">
-        <img src="./assets/logo-horizontal-text.png">
+      <div class="logo">
+        <img src="./assets/logo-horizontal-text.png" />
       </div>
-      <div class="hp-title">
-        <h1 class="big-title">some catchy phrase here</h1>
+      <div class="tc">
+        <h1 class="tt">some catchy phrase here</h1>
       </div>
     </div>
 
     <!-- Scrolling script -->
     <script>
-      const carousel = document.querySelector(".hp-carousel");
+      const carousel = document.querySelector(".car");
       const slides = Array.from(carousel.querySelectorAll(".slide"));
       let index = Math.max(
         0,
