@@ -119,4 +119,19 @@ next thing ill work on is a footer
 ISSUES: horizontal logo on carousel is absolute, so if the vh is small it overlaps with the title.
 
 **AFTER BACKLOG WITH MY DAD**<br>
-I had a chat with my dad about the website, and he does want to see things a lot differently. At the time you're reading this, I might have changed that up already. So unfortunately I have to redo a pretty big part, which hopefully won't take too long. Lesson learnt: maybe talk or think the final result a little more through. That said, he also didn't know exactly what he wants and he will research more about that this week. I'm not entirely sure what I'll do this week, A) start on the revamp or B) make this one more of a final product for HC. Right now I'm leaning towards aproach A. Commit #commit holds 2 non-noticable changes.
+I had a chat with my dad about the website, and he does want to see things a lot differently. At the time you're reading this, I might have changed that up already. So unfortunately I have to redo a pretty big part, which hopefully won't take too long. Lesson learnt: maybe talk or think the final result a little more through. That said, he also didn't know exactly what he wants and he will research more about that this week. I'm not entirely sure what I'll do this week, A) start on the revamp or B) make this one more of a final product for HC. Right now I'm leaning towards aproach A. Commit #0035aa3 holds 2 non-noticable changes.
+
+### Entry #5 - Week 42, 17/10, prep week 3
+
+> **[#a345dac](https://github.com/git-davidd/business-website/commit/a345dac9b8bce44fdf2517aee0dd39c3050ba0f8)**
+> - Removed basically the whole old page, only kept the footer
+> - Added welkom (en: welcome) section with logo, title, button
+> - Added a navbar
+>   - Navbar moves to the left side upon scrolling
+>   - Navbar links go to sections on the page using #section
+> - Added diensten (en: services) section
+
+### Entry #6 - Week 42, 18/10, prep week 3
+
+> **#commit**
+> - Added an over mij (en: about me) section with pfp, header and paragraph text (and a contact button)
