@@ -133,5 +133,5 @@ I had a chat with my dad about the website, and he does want to see things a lot
 
 ### Entry #6 - Week 42, 18/10, prep week 3
 
-> **#commit**
+> **[#cdbd409](https://github.com/git-davidd/business-website/commit/cdbd409709405dcf837a3549b9623bfeef293fe4)**
 > - Added an over mij (en: about me) section with pfp, header and paragraph text (and a contact button)
