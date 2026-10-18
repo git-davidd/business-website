@@ -5,11 +5,26 @@ Hello everyone, I am participating to the [HC Terra](https://terra.hackclub.com)
 This is my second project. I am learning HTML to build my dad a website for his business. As I practiced a bit with the coding before Terra, I now am kind of confident that I can make something that is sufficient, so after just one real finished small project before this one, I will now start on the real pages.
 
 ## Pages and features
-### Homepage
-- At the top of the page is a carousel for images that have a sliding animation and change every 7,5 seconds
-    - on top of that carousel, theres the logo and a catchy prase (that has to be invented still)
+### Navbar
+- Holds all links
+- "Activates" the link of the section youre currently on
+- Moves to the left when scrolling the page
+### Welcome
+- Container with:
+    - Logo
+    - Page title
+    - Button to "my work"
+    - Theme image
+### Services
+- Holds info of the services my dad offers
+- Currently put 3 there with stockphotos and fake text (lorem ipsum)
+### About me
+- Profile picture placeholder
+- Header
+- About me paragraph
+- Contact button
+### More to come in later updates!
 
-Updating soon (or not so soon)
 
 ## Devlogs
 In this file I will log everything I do on which date. I will include calendar week numbers and HC Terra week numbers. I will include everything I do, not only the coding parts. So for example if I do some research before, I'll put it in here. or not if i forget:)
