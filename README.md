@@ -1,10 +1,12 @@
-# HC Terra - Project 2
+# HC Terra - Project 2/3
 Hello everyone, I am participating to the [HC Terra](https://terra.hackclub.com) program to learn HTML, CSS and if neccesairy JS. I hope the prize at the end of the 12 weeks will keep me motivated :)
 
 ## About this project
 This is my second project. I am learning HTML to build my dad a website for his business. As I practiced a bit with the coding before Terra, I now am kind of confident that I can make something that is sufficient, so after just one real finished small project before this one, I will now start on the real pages.
 
 ## Pages and features
+**Please keep in mind that for this week i haven't done anything to make the website compatible with mobile devices and not all reactive sizing works perfect.** I will fix these issues later though.
+
 ### Navbar
 - Holds all links
 - "Activates" the link of the section youre currently on
@@ -28,7 +30,7 @@ This is my second project. I am learning HTML to build my dad a website for his 
 
 ## Devlogs
 In this file I will log everything I do on which date. I will include calendar week numbers and HC Terra week numbers. I will include everything I do, not only the coding parts. So for example if I do some research before, I'll put it in here. or not if i forget:)
-<details><summary><b>Open devlogs</b></summary>
+<details><summary><b>Open devlogs (prep week 2)</b></summary>
 
 ### Entry #1 - Week 42, 12/10, Prep week 3
 Today I want to start making my dad's actual website. I won't put his real name, adress or anything like that on the page. And I'll keep this repo private untill I want to ship the project for the week.
@@ -150,3 +152,9 @@ I had a chat with my dad about the website, and he does want to see things a lot
 
 > **[#cdbd409](https://github.com/git-davidd/business-website/commit/cdbd409709405dcf837a3549b9623bfeef293fe4)**
 > - Added an over mij (en: about me) section with pfp, header and paragraph text (and a contact button)
+
+</details>
+
+<details><summary><b>Open devlogs (week 1)</b></summary>
+
+# coming soon
