@@ -177,7 +177,7 @@ I had a chat with my dad about the website, and he does want to see things a lot
 >   - navbar should not go vertical on small vw
 >   - footer doesnt resize well
 
-> **#commit**
+> **#4d49e4a & #ea06edb**
 > - switched to tailwindcss for a framework for the css
 >   - in the process i want to completely redo the website
 >   - this time im starting with mobile layout, so as of now it will look very bad on desktop lol 
