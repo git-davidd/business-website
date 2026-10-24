@@ -1,4 +1,4 @@
-# HC Terra - Project 2/3
+# HC Terra - Project 2-3
 Hello everyone, I am participating to the [HC Terra](https://terra.hackclub.com) program to learn HTML, CSS and if neccesairy JS. I hope the prize at the end of the 12 weeks will keep me motivated :)
 
 ## About this project
@@ -158,8 +158,21 @@ I had a chat with my dad about the website, and he does want to see things a lot
 <details><summary><b>Open devlogs (week 1)</b></summary>
 
 ### Entry #1 - Week 43, 24/10, terra week 1
-> **#commit**
+> **[#77909d8](https://github.com/git-davidd/business-website/commit/77909d8e43410df69edf95380a632d5d35b3a74d)**
 > - added some vibecoded gallery page that doesnt work yet. will look at it later, just wanted to test some things.
 > - added content section
 > - let claude edit the scripts to make the navbar also apply bold text on clicking on of the links, so that when the section is not at the correct heigt (for example when its not tall enough) it still makes the `<a>` bold because you clicked on it.
 > - uploaded a bunch of images for the gallery page (that doesnt work yet)
+
+> ### I now have a pretty good draft of what the page should be. Ill not down issues and todos under here:
+> **Issues/todo:**
+> - Make working gallery page
+> - Make compatible with mobile screens
+> - Contact button on about me section doesnt work
+> - Several horizontal resizing issues
+>   - pfp at about me
+>   - the 3 bits at services
+>   - theming image at welcome
+>   - navbar should hide items instead when vw is small
+>   - navbar should not go vertical on small vw
+>   - footer doesnt resize well
