@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>business name - Gallerij</title>
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="gallery" id="gallery"></div>
+
+    <script>
+      const images = [
+        "about-me.png",
+        "bathroom.jpg",
+        "bespoke-furniture.jpg",
+        "dolomite-dreams-prags-paradise-in-south-tyrol-5u-3440x1440.jpg",
+        "firewatch-dark-minimal-5k-58-2560x1440.jpg",
+        "kitchen.jpg",
+        "logo-horizontal-text.png",
+        "logo-square.png",
+        "'Pasted image (2).png'",
+        "'Pasted image.png'",
+        "photo-1.jpg",
+        "photo-2.jpg",
+        "photo-3.jpg",
+        "photo-4.jpg",
+        "photo-5.jpg",
+        "welcome-impression.jpg",
+        "wp11849421-655512685.jpg"
+        // add new filenames here
+      ];
+
+      const gallery = document.getElementById("gallery");
+      images.forEach(name => {
+        const img = document.createElement("img");
+        img.src = "photos/" + name;
+        img.loading = "lazy";
+        img.alt = "";
+        gallery.appendChild(img);
+      });
+    </script>
+  </body>
+</html>

@@ -157,4 +157,9 @@ I had a chat with my dad about the website, and he does want to see things a lot
 
 <details><summary><b>Open devlogs (week 1)</b></summary>
 
-# coming soon
+### Entry #1 - Week 43, 24/10, terra week 1
+> **#commit**
+> - added some vibecoded gallery page that doesnt work yet. will look at it later, just wanted to test some things.
+> - added content section
+> - let claude edit the scripts to make the navbar also apply bold text on clicking on of the links, so that when the section is not at the correct heigt (for example when its not tall enough) it still makes the `<a>` bold because you clicked on it.
+> - uploaded a bunch of images for the gallery page (that doesnt work yet)

@@ -102,8 +102,26 @@
         </div>
       </section>
       <!-- EXPERIENCE -->
-      <!-- CONTACT -->
     </div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="ct">
+      <div class="c">
+        <div class="l">
+          <h1>Contact</h1>
+          <p>
+            Contact opnemen kan telefonisch of via e-mail. Gebruik de knoppen
+            rechts om direct de telefoon- of e-mailapp te opnen.
+          </p>
+        </div>
+        <div class="r">
+          <a class="btn" href="tel:+31600000000"><i class="fa-solid fa-phone"></i> +31 6 00000000</a>
+          <a class="btn" href="mailto:mail@domain.ext"><i class="fa-solid fa-at"></i> mail@domain.ext</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="fcdc"><div class="fcd"></div></div>
 
     <!-- FOOTER -->
     <div class="ft">
@@ -132,24 +150,37 @@
     <script>
       const links = document.querySelectorAll("nav a");
       const sections = document.querySelectorAll("section[id]");
+      let pinned = null;
+
+      function setActive(id) {
+        links.forEach((link) => {
+          link.classList.toggle("active", link.getAttribute("href") === `#${id}`);
+        });
+      }
+
+      // clicking pins that link as active
+      links.forEach((link) => {
+        link.addEventListener("click", () => {
+          pinned = link.getAttribute("href").slice(1);
+          setActive(pinned);
+        });
+      });
+
+      // any manual scrolling releases the pin
+      ["wheel", "touchmove", "keydown", "pointerdown"].forEach((type) => {
+        window.addEventListener(type, () => (pinned = null), { passive: true });
+      });
 
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              links.forEach((link) => {
-                link.classList.toggle(
-                  "active",
-                  link.getAttribute("href") === `#${entry.target.id}`,
-                );
-              });
-            }
+            if (entry.isIntersecting && !pinned) setActive(entry.target.id);
           });
         },
         { rootMargin: "-20% 0px -60% 0px" },
       );
 
       sections.forEach((section) => observer.observe(section));
-    </script>
+          </script>
   </body>
 </html>
