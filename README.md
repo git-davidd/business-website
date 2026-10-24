@@ -176,3 +176,11 @@ I had a chat with my dad about the website, and he does want to see things a lot
 >   - navbar should hide items instead when vw is small
 >   - navbar should not go vertical on small vw
 >   - footer doesnt resize well
+
+> **#commit**
+> - switched to tailwindcss for a framework for the css
+>   - in the process i want to completely redo the website
+>   - this time im starting with mobile layout, so as of now it will look very bad on desktop lol 
+> - moved old files to `v1/`
+
+will update further tomorrow. im tired sorry if i made some mistake moving stuff
