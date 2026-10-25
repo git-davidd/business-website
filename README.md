@@ -185,7 +185,8 @@ I had a chat with my dad about the website, and he does want to see things a lot
 
 will update further tomorrow. im tired sorry if i made some mistake moving stuff
 
-issue: no images show on the github page, probs because absolute pathing
+> ~~issue: no images show on the github page, probs because absolute pathing~~
+> - Fixed in commit 
 
 ### Entry #2 - Week 43, 25/10, terra week 1
 > **#commit**
