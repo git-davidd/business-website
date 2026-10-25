@@ -197,5 +197,8 @@ will update further tomorrow. im tired sorry if i made some mistake moving stuff
 > - Added compatability for tablet screens (vertical and horizontal)
 > - TODO: About me section doesnt look good on tablet horizontal, but idk what makes it better
 
-> **#commit**
+> **[#8d90af4](https://github.com/git-davidd/business-website/commit/8d90af493a76b0338c43d86240d6ce3c22c69718)**
 > - I uploaded the site to claude and let it think of stuff todo, i uploaded that file to the repo and i will strikethrough all things ive done or that i wont do
+
+> **[#c7f022a](https://github.com/git-davidd/business-website/commit/c7f022ac2996854d15e53488d059b2aa06c890d7)**
+> - Did section one and two of TODO.md

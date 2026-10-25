@@ -6,6 +6,8 @@ Reviewed from the uploaded folder (current version only; `v1/` was skimmed for s
 
 ---
 
+<details><summary><b>Completed</b></summary>
+
 ## 1. Bugs and mistakes in the code
 
 - [x] **(quick)** `<title>` still says "website title (will change later)". Make it e.g. `Bedrijfsnaam | Montage en maatwerkinterieur in [plaats]`.
@@ -37,7 +39,7 @@ Current sizes: `welcome-impression.jpg` is **7.3 MB** (6000x4000), and the three
 - [ ] **(Later)** Optimise the PNGs too: `logo-square.png` is 500x500, which is more than needed. An **SVG** logo would be sharper and smaller if your dad has the source file.
 - [ ] **(Later)** Replace stock photos with real photos of your dad's work (see section 3).
 - [x] Keep original full-size photos outside the repo (or use Git LFS) so the repo stays small. The repo is already about 21 MB of `.git` history from v1 images.
-
+</details>
 ---
 
 ## 3. Content (the site cannot go live without this)
