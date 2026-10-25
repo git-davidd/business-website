@@ -193,6 +193,9 @@ will update further tomorrow. im tired sorry if i made some mistake moving stuff
 > - Added footer
 > - Finished mobile layout for now, wont add a navbar to it i think as the page is pretty small anyways
 
-> **#commit**
+> **[#49bc37c](https://github.com/git-davidd/business-website/commit/49bc37c21052bb3189ced91bbde68bf624b06b7b)**
 > - Added compatability for tablet screens (vertical and horizontal)
 > - TODO: About me section doesnt look good on tablet horizontal, but idk what makes it better
+
+> **#commit**
+> - I uploaded the site to claude and let it think of stuff todo, i uploaded that file to the repo and i will strikethrough all things ive done or that i wont do
