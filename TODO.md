@@ -8,7 +8,7 @@ Reviewed from the uploaded folder (current version only; `v1/` was skimmed for s
 
 ## 1. Bugs and mistakes in the code
 
-- [ ] **(quick)** `<title>` still says "website title (will change later)". Make it e.g. `Bedrijfsnaam | Montage en maatwerkinterieur in [plaats]`.
+- [x] **(quick)** `<title>` still says "website title (will change later)". Make it e.g. `Bedrijfsnaam | Montage en maatwerkinterieur in [plaats]`.
 - [ ] **(quick)** `href="#LINKHERE"` on the "Bekijk mijn werk" button goes nowhere. Point it at `#services` (or a gallery section/page once it exists).
 - [ ] **(quick)** Every service card uses `<h1>`. A page should have exactly one `<h1>`. Change the card titles to `<h2>` (or `<h3>` under a section heading), and the about heading too.
 - [ ] **(quick)** `transition-duration-0.5` is not a Tailwind class, so it does nothing. Use `duration-500` (or `duration-300`).
