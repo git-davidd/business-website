@@ -186,9 +186,13 @@ I had a chat with my dad about the website, and he does want to see things a lot
 will update further tomorrow. im tired sorry if i made some mistake moving stuff
 
 > ~~issue: no images show on the github page, probs because absolute pathing~~
-> - Fixed in commit 
+> - Fixed in commit [#e5903d6](https://github.com/git-davidd/business-website/commit/e5903d6dce87c81ff076aab7da30178cc1b8840a)
 
 ### Entry #2 - Week 43, 25/10, terra week 1
-> **#commit**
+> **[#8849983](https://github.com/git-davidd/business-website/commit/8849983549b0943887c57454ce8e3b2cd63c2d30)**
 > - Added footer
 > - Finished mobile layout for now, wont add a navbar to it i think as the page is pretty small anyways
+
+> **#commit**
+> - Added compatability for tablet screens (vertical and horizontal)
+> - TODO: About me section doesnt look good on tablet horizontal, but idk what makes it better
