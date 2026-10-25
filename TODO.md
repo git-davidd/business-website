@@ -10,15 +10,16 @@ Reviewed from the uploaded folder (current version only; `v1/` was skimmed for s
 
 - [x] **(quick)** `<title>` still says "website title (will change later)". Make it e.g. `Bedrijfsnaam | Montage en maatwerkinterieur in [plaats]`.
 - [ ] **(quick)** `href="#LINKHERE"` on the "Bekijk mijn werk" button goes nowhere. Point it at `#services` (or a gallery section/page once it exists).
-- [ ] **(quick)** Every service card uses `<h1>`. A page should have exactly one `<h1>`. Change the card titles to `<h2>` (or `<h3>` under a section heading), and the about heading too.
-- [ ] **(quick)** `transition-duration-0.5` is not a Tailwind class, so it does nothing. Use `duration-500` (or `duration-300`).
-- [ ] **(quick)** `Badkamer & toilet` should be `Badkamer &amp; toilet` in HTML.
-- [ ] **(quick)** `.gitignore` lists `package*.json`, `src/input.css`, `.gitignore` and `.prettierrc`. That means your Tailwind source and package files are not in the repo, so nobody (including future you) can rebuild the CSS from GitHub. Keep only `node_modules/` in it, then `git add` the missing files.
-- [ ] **(quick)** `package.json` name is `dad's-website`. The apostrophe is not valid for an npm name. Rename to `business-website`.
-- [ ] **(quick)** Remove the placeholder `"test"` script from `package.json` and add real scripts (see section 11).
-- [ ] The empty comments at the top of `<body>` (`NAV`, `marker for navbar verticallizer`) describe a navbar that no longer exists. Build it or delete the comments.
-- [ ] `src/output.css` is not minified (about 17 KB). Build with `--minify` for production.
-- [ ] Check there is no leftover unused CSS or class strings from v1 in the Tailwind version.
+    - [ ] Add galery page
+- [x] **(quick)** Every service card uses `<h1>`. A page should have exactly one `<h1>`. Change the card titles to `<h2>` (or `<h3>` under a section heading), and the about heading too.
+- [x] **(quick)** `transition-duration-0.5` is not a Tailwind class, so it does nothing. Use `duration-500` (or `duration-300`).
+- [x] **(quick)** `Badkamer & toilet` should be `Badkamer &amp; toilet` in HTML.
+- [x] **(quick)** `.gitignore` lists `package*.json`, `src/input.css`, `.gitignore` and `.prettierrc`. That means your Tailwind source and package files are not in the repo, so nobody (including future you) can rebuild the CSS from GitHub. Keep only `node_modules/` in it, then `git add` the missing files.
+- [x] **(quick)** `package.json` name is `dad's-website`. The apostrophe is not valid for an npm name. Rename to `business-website`.
+- [x] ~~**(quick)** Remove the placeholder `"test"` script from `package.json` and add real scripts (see section 11).~~
+- [x] The empty comments at the top of `<body>` (`NAV`, `marker for navbar verticallizer`) describe a navbar that no longer exists. Build it or delete the comments.
+- [x] `src/output.css` is not minified (about 17 KB). Build with `--minify` for production.
+- [x] ~~Check there is no leftover unused CSS or class strings from v1 in the Tailwind version.~~
 
 ---
 
@@ -26,16 +27,16 @@ Reviewed from the uploaded folder (current version only; `v1/` was skimmed for s
 
 Current sizes: `welcome-impression.jpg` is **7.3 MB** (6000x4000), and the three service photos total **2.5 MB** (up to 5920x3947). The page is roughly 10 MB for a three-section site. On a phone connection that is several seconds of blank space.
 
-- [ ] Resize the welcome image to about 1600 px wide (the displayed size is at most 600 px, so 1200 to 1600 covers high-DPI screens).
-- [ ] Resize service photos to about 800 px wide.
-- [ ] Convert to **WebP** (or AVIF) at roughly quality 75 to 80. Target: under 150 KB each.
-- [ ] Offer multiple sizes with `srcset` and `sizes`, so phones download the small version.
-- [ ] Add `width` and `height` attributes to every `<img>` to stop layout shift while loading.
-- [ ] Add `loading="lazy"` to everything below the fold (services, about). Do **not** lazy-load the welcome image; it is the main visual, so give it `fetchpriority="high"`.
-- [ ] Strip EXIF metadata from photos (location data can leak from phone photos, and it adds weight).
-- [ ] Optimise the PNGs too: `logo-square.png` is 500x500, which is more than needed. An **SVG** logo would be sharper and smaller if your dad has the source file.
-- [ ] Replace stock photos with real photos of your dad's work (see section 3).
-- [ ] Keep original full-size photos outside the repo (or use Git LFS) so the repo stays small. The repo is already about 21 MB of `.git` history from v1 images.
+- [x] Resize the welcome image to about 1600 px wide (the displayed size is at most 600 px, so 1200 to 1600 covers high-DPI screens).
+- [x] Resize service photos to about 800 px wide.
+- [x] Convert to **WebP** (or AVIF) at roughly quality 75 to 80. Target: under 150 KB each.
+- [x] ~~Offer multiple sizes with `srcset` and `sizes`, so phones download the small version.~~
+- [x] ~~Add `width` and `height` attributes to every `<img>` to stop layout shift while loading.~~
+- [x] ~~Add `loading="lazy"` to everything below the fold (services, about). Do **not** lazy-load the welcome image; it is the main visual, so give it `fetchpriority="high"`.~~
+- [ ] **(Later)** Strip EXIF metadata from photos (location data can leak from phone photos, and it adds weight).
+- [ ] **(Later)** Optimise the PNGs too: `logo-square.png` is 500x500, which is more than needed. An **SVG** logo would be sharper and smaller if your dad has the source file.
+- [ ] **(Later)** Replace stock photos with real photos of your dad's work (see section 3).
+- [x] Keep original full-size photos outside the repo (or use Git LFS) so the repo stays small. The repo is already about 21 MB of `.git` history from v1 images.
 
 ---
 
