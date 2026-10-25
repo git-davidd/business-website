@@ -115,8 +115,12 @@
           </p>
         </div>
         <div class="r">
-          <a class="btn" href="tel:+31600000000"><i class="fa-solid fa-phone"></i> +31 6 00000000</a>
-          <a class="btn" href="mailto:mail@domain.ext"><i class="fa-solid fa-at"></i> mail@domain.ext</a>
+          <a class="btn" href="tel:+31600000000"
+            ><i class="fa-solid fa-phone"></i> +31 6 00000000</a
+          >
+          <a class="btn" href="mailto:mail@domain.ext"
+            ><i class="fa-solid fa-at"></i> mail@domain.ext</a
+          >
         </div>
       </div>
     </section>
@@ -154,7 +158,10 @@
 
       function setActive(id) {
         links.forEach((link) => {
-          link.classList.toggle("active", link.getAttribute("href") === `#${id}`);
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === `#${id}`,
+          );
         });
       }
 
@@ -181,6 +188,6 @@
       );
 
       sections.forEach((section) => observer.observe(section));
-          </script>
+    </script>
   </body>
 </html>

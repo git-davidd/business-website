@@ -177,10 +177,17 @@ I had a chat with my dad about the website, and he does want to see things a lot
 >   - navbar should not go vertical on small vw
 >   - footer doesnt resize well
 
-> **#4d49e4a & #ea06edb**
+> **[#4d49e4a](https://github.com/git-davidd/business-website/commit/4d49e4a3037f995c4650f6a5bb5dd13020bcfc0e) & [#ea06edb](https://github.com/git-davidd/business-website/commit/ea06edb793197dbd2288d41bf14fe36c07c10afb)**
 > - switched to tailwindcss for a framework for the css
 >   - in the process i want to completely redo the website
 >   - this time im starting with mobile layout, so as of now it will look very bad on desktop lol 
 > - moved old files to `v1/`
 
 will update further tomorrow. im tired sorry if i made some mistake moving stuff
+
+issue: no images show on the github page, probs because absolute pathing
+
+### Entry #2 - Week 43, 25/10, terra week 1
+> **#commit**
+> - Added footer
+> - Finished mobile layout for now, wont add a navbar to it i think as the page is pretty small anyways
