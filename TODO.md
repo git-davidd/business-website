@@ -36,7 +36,7 @@ Current sizes: `welcome-impression.jpg` is **7.3 MB** (6000x4000), and the three
 - [x] ~~Add `width` and `height` attributes to every `<img>` to stop layout shift while loading.~~
 - [x] ~~Add `loading="lazy"` to everything below the fold (services, about). Do **not** lazy-load the welcome image; it is the main visual, so give it `fetchpriority="high"`.~~
 - [ ] **(Later)** Strip EXIF metadata from photos (location data can leak from phone photos, and it adds weight).
-- [ ] **(Later)** Optimise the PNGs too: `logo-square.png` is 500x500, which is more than needed. An **SVG** logo would be sharper and smaller if your dad has the source file.
+- [x] Optimise the PNGs too: `logo-square.png` is 500x500, which is more than needed. An **SVG** logo would be sharper and smaller if your dad has the source file.
 - [ ] **(Later)** Replace stock photos with real photos of your dad's work (see section 3).
 - [x] Keep original full-size photos outside the repo (or use Git LFS) so the repo stays small. The repo is already about 21 MB of `.git` history from v1 images.
 
@@ -52,9 +52,9 @@ Current sizes: `welcome-impression.jpg` is **7.3 MB** (6000x4000), and the three
 - [ ] **(Later)** Write the service text in specifics: what is included, typical project size, materials, how long a job takes. Example: "Keuken geplaatst in 2 tot 3 dagen, inclusief aansluiten van apparatuur."
 - [x] Add the **area served** ("Werkgebied: Utrecht en omgeving").
 - [x] Add **opening hours** or "bereikbaar" times and a response promise ("Reactie binnen 1 werkdag").
-- [ ] Add 2 to 4 **customer reviews** with first name and place (ask permission). A Google Reviews link works too.
-- [ ] Add a short **"Hoe werkt het"** section: 1) kennismaking en opmeten, 2) offerte, 3) uitvoering, 4) oplevering.
-- [ ] Add a call to action to **request a quote** ("Vraag vrijblijvend een offerte aan"), not only "Kom in contact".
+- [ ] **(Later)** Add 2 to 4 **customer reviews** with first name and place (ask permission). A Google Reviews link works too.
+- [x] Add a short **"Hoe werkt het"** section: 1) kennismaking en opmeten, 2) offerte, 3) uitvoering, 4) oplevering.
+- [ ] **(Later)** Add a call to action to **request a quote** ("Vraag vrijblijvend een offerte aan"), not only "Kom in contact".
 - [ ] Add experience/certifications if they exist (the `<!-- experience (later) -->` comment). Examples: diplomas, brand partners, insurance, guarantee ("garantie").
 - [ ] Have someone proofread all Dutch text. Make the tone consistent (je/u, ik/wij). Currently the site uses "ik" (sole trader); keep that throughout.
 - [ ] Decide on the **gallery** (see section 4).
