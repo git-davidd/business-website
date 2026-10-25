@@ -202,3 +202,7 @@ will update further tomorrow. im tired sorry if i made some mistake moving stuff
 
 > **[#c7f022a](https://github.com/git-davidd/business-website/commit/c7f022ac2996854d15e53488d059b2aa06c890d7)**
 > - Did section one and two of TODO.md
+
+fuck this logging, ill just log in terra
+
+</details>

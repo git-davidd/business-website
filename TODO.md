@@ -44,14 +44,14 @@ Current sizes: `welcome-impression.jpg` is **7.3 MB** (6000x4000), and the three
 </details>
 ## 3. Content (the site cannot go live without this)
 
-- [ ] Replace **all lorem ipsum**: three service descriptions, and the contact paragraph.
-- [ ] Replace placeholders: `mail@domain.ext`, `+31 6 00000000`, `Bedrijfsnaam`, `KvK 00000000`.
-- [ ] Real photos of finished work (kitchens, bathrooms, furniture). Before and after shots work well.
-- [ ] A real photo of your dad for the about section (a person's face builds trust far more than a stock image). The `alt` text should name him.
-- [ ] Decide whether the real first name goes on the site ("Hallo, ik ben Jan" currently). Customers like it.
-- [ ] Write the service text in specifics: what is included, typical project size, materials, how long a job takes. Example: "Keuken geplaatst in 2 tot 3 dagen, inclusief aansluiten van apparatuur."
-- [ ] Add the **area served** ("Werkgebied: Utrecht en omgeving").
-- [ ] Add **opening hours** or "bereikbaar" times and a response promise ("Reactie binnen 1 werkdag").
+- [x] Replace **all lorem ipsum**: three service descriptions, and the contact paragraph.
+- [x] Replace placeholders: `mail@domain.ext`, `+31 6 00000000`, `Bedrijfsnaam`, `KvK 00000000`.
+- [ ] **(Later)** Real photos of finished work (kitchens, bathrooms, furniture). Before and after shots work well.
+- [ ] **(Later)** A real photo of your dad for the about section (a person's face builds trust far more than a stock image). The `alt` text should name him.
+- [x] Decide whether the real first name goes on the site ("Hallo, ik ben Jan" currently). Customers like it.
+- [ ] **(Later)** Write the service text in specifics: what is included, typical project size, materials, how long a job takes. Example: "Keuken geplaatst in 2 tot 3 dagen, inclusief aansluiten van apparatuur."
+- [x] Add the **area served** ("Werkgebied: Utrecht en omgeving").
+- [x] Add **opening hours** or "bereikbaar" times and a response promise ("Reactie binnen 1 werkdag").
 - [ ] Add 2 to 4 **customer reviews** with first name and place (ask permission). A Google Reviews link works too.
 - [ ] Add a short **"Hoe werkt het"** section: 1) kennismaking en opmeten, 2) offerte, 3) uitvoering, 4) oplevering.
 - [ ] Add a call to action to **request a quote** ("Vraag vrijblijvend een offerte aan"), not only "Kom in contact".
